@@ -9,11 +9,11 @@
 import Cocoa
 
 class TaskTableCell: NSTableCellView {
-	@IBOutlet weak var name: NSTextField!
-	@IBOutlet weak var preview: NSImageView!
-	@IBOutlet weak var progressBar: SpinnerProgressIndicator!
-	@IBOutlet weak var status: NSTextField!
-	@IBOutlet weak var finishIndicator: NSImageView!
+	@IBOutlet var name: NSTextField!
+	@IBOutlet var preview: NSImageView!
+	@IBOutlet var progressBar: SpinnerProgressIndicator!
+	@IBOutlet var status: NSTextField!
+	@IBOutlet var finishIndicator: NSImageView!
 	
 	override func awakeFromNib() {
 		super.awakeFromNib()

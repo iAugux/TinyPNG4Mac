@@ -10,16 +10,16 @@ import Cocoa
 
 class MainViewController: NSViewController, NSOpenSavePanelDelegate, NSTableViewDelegate, NSTableViewDataSource, NSTextFieldDelegate, DragContainerDelegate, TPClientCallback {
 	
-	@IBOutlet weak var apiKey: NSTextField!
-	@IBOutlet weak var outputPathField: NSTextField!
-	@IBOutlet weak var outputPathSelectButton: NSButton!
-	@IBOutlet weak var taskTableView: NSTableView!
-	@IBOutlet weak var dropContainer: DragContainer!
-	@IBOutlet weak var totalReduce: NSTextField!
-	@IBOutlet weak var replaceSwitch: NSButton!
-	@IBOutlet weak var icon: NSImageView!
-	@IBOutlet weak var desc: NSTextField!
-	@IBOutlet weak var background: GradientView!
+	@IBOutlet var apiKey: NSTextField!
+	@IBOutlet var outputPathField: NSTextField!
+	@IBOutlet var outputPathSelectButton: NSButton!
+	@IBOutlet var taskTableView: NSTableView!
+	@IBOutlet var dropContainer: DragContainer!
+	@IBOutlet var totalReduce: NSTextField!
+	@IBOutlet var replaceSwitch: NSButton!
+	@IBOutlet var icon: NSImageView!
+	@IBOutlet var desc: NSTextField!
+	@IBOutlet var background: GradientView!
 	
 	var totalSize: Double = 0
 	var totalRecudeSize: Double = 0
